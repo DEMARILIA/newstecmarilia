@@ -1,0 +1,92 @@
+/* Estilização geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Estilização do conteúdo principal */
+main {
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.italic {
+     font-weight: 200;
+    font-size: 1rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #03478a;
+}
+
+.h3title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-top: 55px;
+    color: #b50024;
+}
+
+main ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+main li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+/* Estilização dos links */
+main a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+
+    background-color: #333;
+    text-align: center;
+    color: rgb(185, 181, 181);
+     position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer p{
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
